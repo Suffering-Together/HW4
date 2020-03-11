@@ -28,10 +28,8 @@ ints = []    #list of the ints x in the range(x)
 def list_to_string(my_list):
     my_string = ""
     for n in my_list:
-        if (n == my_list[len(my_list)-1]):
-            my_string += str(n)
-        else:
-            my_string += str(n)+ ","
+        if (n == my_list[len(my_list)-1]): my_string += str(n)
+        else: my_string += str(n)+ ","
     return my_string
     
 print("""This program is written by Jesse Contreras and Damini Gopal
