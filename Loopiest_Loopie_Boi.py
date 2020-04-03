@@ -3,7 +3,7 @@ Authors: Jesse Contreras, Damini Gopal
 Serial Numbers: 22, 33
 Spring 2020 - CS 1342 - 251
 Homework Number 4
-Due Date : March, 30th 2020
+Due Date : April, 6th 2020
 """
 
 num1 = 0     #int input that tells the exclusive lower bound of the range
@@ -63,3 +63,6 @@ if (num1 >= 0 and num2 >= 0): #check if numbers are positive
         
     else: print("\n\nError : First Number Must Be < Second Number.")
 else: print("\n\nError - Invalid Number : Numbers must be Positive.")
+
+#Singature Line
+print("\n\nProgram is implement by Jesse Contreras and Damini Gopal\n3-4-20")
